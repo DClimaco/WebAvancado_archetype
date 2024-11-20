@@ -25,7 +25,7 @@ export default function Login() {
   const handleSubmit = async (event: GestureResponderEvent) => {
     event.preventDefault();
     console.log(data);
-    router.push('/(tabs)/BemVindo');  // Certifique-se de que o caminho esteja correto.
+    router.push('../BemVindo');  // Certifique-se de que o caminho esteja correto.
   };
   
 
